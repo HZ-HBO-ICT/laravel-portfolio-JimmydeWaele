@@ -35,3 +35,23 @@ Route::get('/', function () {
 Route::get('test', function() {
    return view('test');
 });
+
+Route::get('index', function() {
+    return view('index');
+});
+
+Route::get('profile', function() {
+    return view('profile');
+});
+
+Route::get('dashboard', function() {
+    return view('dashboard');
+});
+
+Route::get('faq', function() {
+    return view('faq');
+});
+
+Route::get('blog', function() {
+    return view('blog');
+});
