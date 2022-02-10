@@ -1,0 +1,69 @@
+.navbar ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    border: black solid 2px;
+}
+
+.active {
+    background-color: rgb(84, 18, 97);
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: purple;
+}
+
+li a:hover {
+    background-color: rgb(84, 18, 97);
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    position: fixed;
+    bottom: 140px;
+    right: 0;
+    width: 10%;
+    border: black solid 1px;
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: rgb(84, 18, 97);
+}
+
+.achtergrond {
+    background-image: linear-gradient(90deg, purple, pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
